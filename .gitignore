@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+.env
+
+# Environment example (keep if needed)
+# .env.example
+
+# Qdrant database files
+qdrant_db/
+*.sqlite
+*.db
+*.sqlite3
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Node modules (frontend)
+frontend/node_modules/
+
+# React/Vite build files
+frontend/dist/
+
+# Lock files (optional)
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore uploaded docs if needed
+uploads/
+data/
